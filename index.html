@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+
+</head>
+<body>
+    <header class="header">
+       
+        <div class="nav-bar">
+  <h1 style="color: antiquewhite; font-size: 48px; display: flex; align-items: center; gap: 10px;">
+  
+  <i class="fa-solid fa-b" style="font-size: 1em; color: white;">uyHigh</i>
+</h1>
+
+    
+<div class="dropdown" id="tradeDropdown">
+  <div class="dropdown-toggle">Trade ▼</div>
+  <div class="dropdown-menu">
+    <a href="#">Stocks</a>
+    <a href="#">Calculator</a>
+    <a href="#">Web Stories</a>
+    <a href="#">Blogs</a>
+    <a href="#">Gold</a>
+    <a href="#">Currency Converter</a>
+    <a href="#">Global Indices</a>
+    <a href="#">Tesla</a>
+  </div>
+</div>
+
+   
+
+<a href="">Partners</a>
+
+   <div class="dropdown" id="careerDropdown">
+  <div class="dropdown-toggle">Careers ▼</div>
+  <div class="dropdown-menu">
+    <a href="#">@BuyHigh stories</a>
+    <a href="#">we are hiring</a>
+    
+  </div>
+</div>
+
+<a href="">Shop</a>
+ </div>
+
+   <div class="input-bar">
+    <input type="Search Stocks" placeholder="search your stocks  here">
+
+<button onclick="window.location.href='index2.html'">Login/signUp</button>
+
+       </div>
+
+
+       
+
+    </header>
+
+    <div class="main">
+        <img src="image.jpeg" alt="">
+        <div class="main-text">
+              <p>Empowering Your Financial Future</p>
+           <p style="font-size: 2.5rem;">Trade smarter. Invest wiser.</p>
+        </div>
+        <button>Try BuyHigh Web</button>
+
+        
+ 
+    </div>
+    <div class="portfolio">
+        
+        <div class="folio-text">
+           
+ <div class="heading">
+                <p>Yuor financial freedom starts here</p>
+                <p>Starts Here</p>
+            </div>
+            <div class="sub-heading">
+                <h1 style="margin-left: 2.8em;margin-top: 3em; font-size: 32px;">Actionanle Stock Insights</h1>
+                <h6 style="margin-left: 3.5em; margin-top:2rem; font-size: 24px;">Gain a comphrensive overveiw of stock before investing</h6>
+                <ul class="stock-features">
+                    <li>Compare returns,reveiw stock score,veiw analyst ranking</li>
+                    <li>Evaluate performance against comptetors and industry benchmarks</li>
+                    <li>Get the latest news,events and trends impact the Stock</li>
+                </ul>
+            </div>
+            </div>
+             <div class="folio-img">
+                <img src="image3.webp" alt="">
+             </div>
+        </div>
+
+         <footer class="footer_bar">
+    <nav class="footer_part">
+        <div class="footer_div">
+           <div class="para">
+            <p>ABOUT</p>
+            </div>
+            <div class="anchor">
+           <a href="">Contact Us</a>
+            <a href="">About Us</a>
+             <a href="">Careers</a>
+              <a href="">BuyHigh stories</a>
+               <a href="">Press</a>
+                <a href="">Corporate information</a>
+                </div>
+        </div>
+        <div class="footer_div">
+
+             <div class="para">
+            <p>Group Companies</p>
+            </div>
+            <div class="anchor">
+           <a href="">Myntra</a>
+            <a href="">cleartip</a>
+             <a href="">Shopsy</a>
+              
+                </div>
+
+        </div>
+        <div class="footer_div">
+             <div class="para">
+            <p>Help</p>
+            </div>
+            <div class="anchor">
+           <a href="">Stocks</a>
+            <a href="">Shipping</a>
+              <a href="">FAQs</a>
+              
+                </div>
+        </div>
+        <div class="footer_div">
+             <div class="para">
+            <p>Consumer Policy</p>
+            </div>
+            <div class="anchor">
+         
+            <a href="">Terms Of Use</a>
+             <a href="">Security</a>
+              <a href="">Privacy</a>
+               <a href="">Sitemap</a>
+                <a href="">Grievance Redressal</a>
+                <a href="">EPR Compliance</a>
+                </div>
+        </div>
+        <div class="footer_div">
+             <div class="para">
+            <p>Mail Us</p>
+            </div>
+            <div class="anchor">
+           <a href="">BuyHigh internet Private Limited</a>
+            <a href="">Buildings Alyssa,Bengonia &</a>
+             <a href="">Clove Embassy Tech Village,</a>
+              <a href="">Outer Ring Rooad,Devarabeesanahall Village</a>
+               <a href="">Bengluru,560103</a>
+                <a href="">Karnataka,India</a>
+                </div>
+        </div>
+        <div class="footer_div">
+             <div class="para">
+            <p>Registered Official Address</p>
+            </div>
+            <div class="anchor">
+                  <a href="">BuyHigh internet Private Limited</a>
+            <a href="">Buildings Alyssa,Bengonia &</a>
+             <a href="">Clove Embassy Tech Village,</a>
+              <a href="">Outer Ring Rooad,Devarabeesanahall Village</a>
+               <a href="">Bengluru,560103</a>
+                <a href="">Karnataka,India</a>
+
+                <a href="">CIN:U1260KA2024PTC081495</a>
+                <a style="color: rgba(63, 63, 239, 0.55);"="">Telephone:044-43521700/044-3456783211</a>
+
+           
+                </div>
+        </div>
+    </nav>
+
+</footer>
+
+   
+
+
+    <script>
+  const dropdown = document.getElementById('tradeDropdown');
+  dropdown.addEventListener('click', () => {
+    dropdown.classList.toggle('active');
+  });
+
+  // Optional: Close dropdown if clicked outside
+  window.addEventListener('click', function(e) {
+    if (!dropdown.contains(e.target)) {
+      dropdown.classList.remove('active');
+    }
+  });
+
+   const careerdropdown = document.getElementById('careerDropdown');
+  careerdropdown .addEventListener('click', () => {
+    careerdropdown .classList.toggle('active');
+  });
+
+  // Optional: Close dropdown if clicked outside
+  window.addEventListener('click', function(e) {
+    if (!careerdropdown .contains(e.target)) {
+      careerdropdown .classList.remove('active');
+    }
+  });
+</script>
+</body>
+</html>
